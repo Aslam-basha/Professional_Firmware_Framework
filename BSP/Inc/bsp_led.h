@@ -13,5 +13,6 @@ void BSP_LED_Init(void);
 void BSP_LED_Set(bsp_led_state_t state);
 void BSP_LED_Toggle(void);
 bsp_led_state_t BSP_LED_GetState(void);
+uint32_t BSP_LED_GetToggleCount(void);
 
 #endif /* BSP_LED_H */
